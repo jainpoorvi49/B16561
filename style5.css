@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(36, 35, 35);
+}
+
+#main{
+    
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+
+#main #line{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 40px;
+    top: 70%;
+    left: 0;
+    border-top: .3px solid rgba(255, 255, 255, 0.514);
+    border-bottom: .3px solid rgba(255, 255, 255, 0.514);
+
+}
+
+#one{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translate(0,-50%);
+    color: white;
+    font-weight: 20px;
+    letter-spacing: 5px;
+    
+}
+
+#two{
+    position: absolute;
+    top: 50%;
+    right:30px;
+    transform: translate(0,-50%);
+    color: white;
+    font-weight: 20px;
+    letter-spacing: 5px;
+    
+}
+
+
+#left{
+    position: relative;
+    height: 100%;
+    width: 30%;
+
+
+}
+
+#text{
+    position: absolute;
+    z-index: 999;
+    top: 20%;
+    left: 30%;
+    color: white;
+    font-weight: 25px;
+    font-size: 70px;
+    font-family:hursheys;
+    letter-spacing: 8px;
+
+}
+
+
+#lbtm {
+      position: absolute;
+    bottom: 10%;
+      left: 30px;
+      color: white;
+      font-size: 30px;
+    font-family:hursheys;
+    letter-spacing: 2px;
+    font-weight: 25px;
+    letter-spacing: 6px;
+
+}
+
+ 
+
+#center{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-color: crimson;
+    background-image: url(https://images.unsplash.com/photo-1596942515068-0daf9cc4fcac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+
+#cbtm{
+    position: absolute;
+    color: white;
+    font-family:hursheys;
+    letter-spacing: 2px;
+    font-weight: 30px;
+    letter-spacing: 5px;
+    bottom: 20px;
+
+}
+#cbtm h1,#cbtm h2{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-weight: 30px;
+    font-size: 40px;
+    
+
+}
+
+#cbtm h1{
+    position: absolute;
+    bottom: 37px;
+    left: 16px;
+    font-weight: 30px;
+    font-size: 50px;
+}
+#circle{
+    position: absolute;
+    top: 8%;
+    left: 70%;
+    height: 100px;
+    width: 100px;
+    border: rgba(255, 255, 255, 0.37);
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.24);
+    
+}
+
+#circle h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: x-small;
+    color: white;
+    transform: translate(-50%,-50%);
+    
+}
+ 
+
+#right{
+    height: 100%;
+    width: 20%;
+}
+
+#topright{
+    height: 80%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1590166223826-12dee1677420?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=389&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#bottomright {
+    position: relative;
+    height: 20%;
+    width: 100%;
+    
+    background-color: #dadddb;
+}
+
+#bottomright h1{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    font-weight: bold;
+    font-family: hursheys;
+    font-size: 50px;
+    transform: translate(-50%,-50%);
+    font-weight: lighter;
+}
+
+#circle:hover{
+   
+    background-color: rgba(0, 0, 0, 0.096);
+    cursor: pointer;
+}
+
+#circle h5:hover{
+    color: rgba(0, 0, 0, 0.856);
+    cursor: pointer;
+}
+
+#line:hover{
+    background-color: rgba(0, 0, 0, 0.274);
+    cursor: pointer;
+}
+
+#bottomright:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#left #text h1:hover{
+-webkit-text-stroke: 2px rgba(253, 250, 250, 0.863);
+color: transparent ;
+cursor: pointer;
+
+}
+
+#cbtm h1,#cbtm h2:hover{
+    -webkit-text-stroke: 2px rgba(253, 250, 250, 0.863);
+     color: transparent ;
+     cursor: pointer;
+}
+
+#lbtm:hover{
+    -webkit-text-stroke: 2px rgba(253, 250, 250, 0.863);
+    color: transparent ;
+    cursor: pointer;
+}
+
